@@ -11,8 +11,4 @@ public class HomeController {
         return "home";
     }
 
-    @GetMapping(value="")
-    public String mypage() throws Exception {
-        return "mypage";
-    }
 }
