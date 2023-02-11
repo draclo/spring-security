@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service
+@Service("userDetailsService")
 public class CustomUserDetailService implements UserDetailsService {
 
     @Autowired
