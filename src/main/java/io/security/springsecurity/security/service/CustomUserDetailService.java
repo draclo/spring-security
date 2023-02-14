@@ -1,7 +1,7 @@
 package io.security.springsecurity.security.service;
 
 import io.security.springsecurity.domain.Account;
-import io.security.springsecurity.repository.UserRepository;
+import io.security.springsecurity.controller.admin.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
